@@ -1,0 +1,120 @@
+.ADDassesses {
+  .com-textarea {
+    width: 100%;
+    height: 4.77rem;
+    padding: .3rem;
+    font-size: .39rem;
+    resize: none;
+    outline: none;
+    border: none;
+    line-height: .6rem;
+    border-top: .01rem solid #e5e5e5;
+    border-bottom: .01rem solid #e5e5e5;
+  }
+  .img-upload {
+    padding-top: .45rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background: #fff;
+    position: relative;
+    .pre-view-img {
+      height: 2.55rem;
+      width: 2.55rem;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      margin: 0 .2735rem .54rem
+    }
+    .select-img {
+      height: 2.55rem;
+      width: 2.55rem;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      margin: 0 .2735rem .54rem;
+      background-color: #fff;
+      background-size: contain;
+      background-image: url('./img/addImg.png');
+    }
+  }
+  .confirmMask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    .content {
+      width: 9.75rem;
+      background: #fff;
+      border-radius: .06rem;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+    .confirmBtn {
+      width: 4.2rem;
+      height: .9rem;
+      line-height: .9rem;
+      text-align: center;
+      font-size: .42rem;
+      margin-top: 1.36rem;
+      margin-bottom: .76rem;
+      color: #fff;
+      background: #ff8d36;
+    }
+    .tip {
+      width: 8.7rem;
+      line-height: .7rem;
+      font-size: .45rem;
+      color: #000;
+      padding-top: 1.5rem;
+      letter-spacing: 0;
+    }
+  }
+  .commit {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    height: 1.2rem;
+    width: 100%;
+    background: #ff8d36;
+    font-size: .39rem;
+    color: #fffefe;
+    line-height: 1.2rem;
+  }
+}

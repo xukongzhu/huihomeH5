@@ -1,0 +1,72 @@
+.follow-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fff;
+  .follow-div {
+    padding: .6rem .6rem .5rem .34rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .36rem solid #f6f6f6;
+    .pro-follow,
+    .user-follow {
+      height: 1.2rem;
+      vertical-align: middle;
+      margin-top: .1rem;
+      text-align: center;
+      img {
+        width: .76rem;
+        height: .78rem;
+      }
+      p {
+        color: #989898;
+        font-size: .36rem;
+        text-align: center;
+        &.c8 {
+          color: #3db8a8;
+        }
+      }
+    }
+    .follow-infor {
+      display: flex;
+      position: relative;
+      .huihome-v {
+        position: absolute;
+        width: .54rem;
+        height: .54rem;
+        left: .9rem;
+        top: .9rem;
+      }
+      .follow-avatar {
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+      }
+      .follow-data {
+        padding: .2rem .2rem 0 .41rem;
+        p:nth-child(1) {
+          display: flex;
+          font-size: .48rem;
+          color: #464646;
+          span {
+            color: #989898;
+            font-size: .42rem;
+            margin-top: .06rem;
+          }
+        }
+        p:nth-child(2) {
+          display: flex;
+          margin-top: .31rem;
+          span {
+            font-size: .38rem;
+            color: #464646;
+            margin-right: .66rem;
+          }
+          span:nth-child(3) {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

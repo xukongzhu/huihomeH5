@@ -1,0 +1,28 @@
+.shops-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fff;
+  .shops-obj {
+    margin: .3rem;
+  }
+  .pro-follow,
+  .user-follow {
+    height: 1.2rem;
+    vertical-align: middle;
+    margin-top: .1rem;
+    text-align: center;
+    img {
+      width: .76rem;
+      height: .78rem;
+    }
+    p {
+      color: #989898;
+      font-size: .36rem;
+      text-align: center;
+      &.c8 {
+        color: #3db8a8;
+      }
+    }
+  }
+}

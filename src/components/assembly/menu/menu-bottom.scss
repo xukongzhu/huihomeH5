@@ -1,0 +1,25 @@
+.menuBottom {
+  display: flex;
+  height: 1.26rem;
+  width: 100%;
+  border-top: .01rem solid #f1f1f1;
+  background-color: #fff;
+  .menu_bottom_optiont {
+    flex: 1;
+    text-align: center;
+    height: 1.26rem;
+    line-height: .63rem;
+    img {
+      height: .45rem;
+    }
+    p {
+      text-align: center;
+      color: #989898;
+      font-size: .36rem;
+      line-height: .6rem;
+      &.select {
+        color: #3db8a8;
+      }
+    }
+  }
+}

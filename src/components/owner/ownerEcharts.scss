@@ -1,0 +1,104 @@
+.bill-content {
+  padding-top: 0.3rem;
+  .bill-totals {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .3rem;
+    .bill-title {
+      font-size: .54rem;
+      color: #000;
+    }
+    .bill-date {
+      font-size: .36rem;
+      color: #989898;
+    }
+  }
+  .bill-echarts {
+    position: relative;
+    .bill-expenditure {
+      position: absolute;
+      width: 100%;
+      height: 2.34rem;
+      z-index: 999;
+      top: 1.98rem;
+      .bill-expenditure-outer {
+        margin: 0 auto;
+        background-color: #fff;
+        width: 2.34rem;
+        height: 2.34rem;
+        border-radius: 1.17rem;
+        text-align: center;
+        .bill-expenditure-title {
+          font-size: .48rem;
+          padding-top: .6rem;
+          color: #545454;
+        }
+        .bill-expenditure-num {
+          font-size: .48rem;
+          color: #545454;
+          margin-top: .2rem;
+        }
+      }
+    }
+    #myChart {
+      width: 6.3rem;
+      height: 6.3rem;
+      margin: 0 auto;
+      margin-top: .9rem;
+    }
+  }
+  .bill-fee-list {
+    .bill-fee {
+      display: flex;
+      margin-top: .75rem;
+      line-height: 1.26rem;
+      border-bottom: 0.01rem solid #e5e5e5;
+      justify-content: space-between;
+      padding: 0 .3rem;
+      height: .9rem;
+      .df {
+        display: flex;
+        .bill-color {
+          width: .3rem;
+          height: .3rem;
+          &.bill-color-1 {
+            background-color: #eb72b1;
+          }
+          &.bill-color-2 {
+            background-color: #61c8a0;
+          }
+          &.bill-color-3 {
+            background-color: #ffa207;
+          }
+          &.bill-color-4 {
+            background-color: #a689cb;
+          }
+          &.bill-color-5 {
+            background-color: #abd678;
+          }
+          &.bill-color-6 {
+            background-color: #ff6262;
+          }
+          &.bill-color-7 {
+            background-color: #4eaaff;
+          }
+        }
+        .bill-type {
+          padding-left: .42rem;
+          font-size: .42rem;
+          color: #000;
+        }
+        .bill-num {
+          font-size: .39rem;
+          color: #989898;
+          padding-right: .3rem;
+        }
+        .bill-arrow {
+          width: .24rem;
+          height: .39rem;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}

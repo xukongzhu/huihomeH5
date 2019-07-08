@@ -1,0 +1,53 @@
+.pro-operation-div {
+  display: flex;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  font-size: .36rem;
+  color: #989898;
+  width: 100%;
+  box-sizing: content-box;
+  margin: .33rem .3rem 0 .3rem;
+  .pro-operation-option {
+    height: .69rem;
+    line-height: .69rem;
+    text-align: center;
+    position: relative;
+    flex: 1;
+    font-size: .4rem;
+    padding-bottom: .3rem;
+    span {
+      font-size: .42rem;
+      line-height: .69rem;
+    }
+    img {
+      height: .45rem;
+      margin-right: .09rem;
+      vertical-align: top;
+    }
+  }
+  .bn {
+    border: none;
+  }
+  .pro-operation-like {
+    img {
+      width: .48rem;
+      height: .47rem;
+    }
+  }
+  .pro-operation-comment {
+    img {
+      width: .51rem;
+      height: .45rem;
+      vertical-align: text-top;
+    }
+  }
+  .pro-operation-collection {
+    img {
+      width: .45rem;
+      height: .45rem;
+      vertical-align: baseline;
+    }
+    border: none;
+  }
+}

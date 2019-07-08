@@ -1,0 +1,121 @@
+.site-div {
+  padding: .3rem;
+  border-bottom: .3rem solid #f1f1f1;
+  .site-img-div {
+    height: 6.51rem;
+    width: 100%;
+    background-size: cover;
+    background-position: 50%;
+    div {
+      height: .98rem;
+      background-color: rgba(#000, 0.5);
+      color: #fff;
+      line-height: .8rem;
+      text-align: left;
+      font-size: .42rem;
+      padding: 0 .3rem;
+      width: 6.36rem;
+      display: table;
+      display: flex;
+      justify-content: space-between;
+      span {
+        line-height: .98rem;
+      }
+    }
+  }
+  .site-infor {
+    position: relative;
+    .site-user-infor {
+      position: absolute;
+      top: -.9rem;
+      right: .1rem;
+      width: 2rem;
+      overflow: hidden;
+      display: none;
+      img {
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 100%;
+        border: .01rem solid #fff;
+      }
+      p {
+        font-size: .38rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        /*! autoprefixer: off */
+        -webkit-box-orient: vertical;
+        /* autoprefixer: on */
+        height: .4rem;
+        line-height: .45rem;
+        color: #3db8a8;
+      }
+    }
+    .site-name {
+      width: 65%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      /*! autoprefixer: off */
+      -webkit-box-orient: vertical;
+      /* autoprefixer: on */
+      font-size: .48rem;
+      line-height: .8rem;
+      height: .8rem;
+      color: #464646;
+      margin-top: .83rem;
+      margin-bottom: .3rem;
+    }
+    .site-place {
+      display: flex;
+      margin-bottom: .35rem;
+      img {
+        height: .38rem;
+        margin-right: .12rem;
+      }
+      span {
+        font-size: .4rem;
+        color: #989898;
+      }
+    }
+    .site-data {
+      line-height: .8rem;
+      height: .8rem;
+      color: #989898;
+      font-size: .38rem;
+      span:nth-child(1) {
+        color: #464646;
+      }
+    }
+    .rule-infor {
+      position: absolute;
+      top: -1.65rem;
+      right: .65rem;
+      text-align: center;
+      width: 2rem;
+      img {
+        width: 1.56rem;
+        height: 1.56rem;
+        border-radius: 50%;
+      }
+      p {
+        font-size: .42rem;
+        text-align: center;
+        color: #3db8a8;
+        margin-top: .1rem;
+        width: 2rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        height: .5rem;
+        line-height: .5rem;
+        /*! autoprefixer: off */
+        -webkit-box-orient: vertical;
+        /* autoprefixer: on */
+      }
+    }
+  }
+}

@@ -1,0 +1,223 @@
+.dynamic-content {
+  margin: .3rem .3rem 0 .3rem;
+  .video-content {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 8.83rem;
+  }
+  .prism-player .prism-liveshift-progress .prism-progress-played,
+  .prism-player .prism-progress .prism-progress-played {
+    background-color: #3db8a8;
+  }
+  .prism-player .prism-liveshift-progress .prism-progress-loaded,
+  .prism-player .prism-progress .prism-progress-loaded {
+    background-color: #fff;
+  }
+  .prism-player .prism-info-display {
+    top: .1rem;
+  }
+  .video-time {
+    position: absolute;
+    right: .6rem;
+    bottom: .32rem;
+    font-size: .4rem;
+    color: #fff;
+    z-index: 9;
+  }
+  .prism-player {
+    video {
+      z-index: 1;
+    }
+  }
+  .pro-follow,
+  .user-follow {
+    height: 1.2rem;
+    vertical-align: middle;
+    margin-top: .1rem;
+    text-align: center;
+    img {
+      width: .76rem;
+      height: .78rem;
+    }
+    p {
+      color: #989898;
+      font-size: .36rem;
+      text-align: center;
+      &.c8 {
+        color: #3db8a8;
+      }
+    }
+  }
+  .pro-delete {
+    font-size: .42rem;
+    color: #3db8a8;
+    padding-top: .3rem;
+  }
+  .site-ess {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: .3rem;
+    line-height: .69rem;
+    .flex {
+      display: flex;
+    }
+    img {
+      width: .53rem;
+      height: .34rem;
+      vertical-align: top;
+    }
+    p {
+      font-size: .42rem;
+      color: #ffa810;
+      margin-left: .18rem;
+    }
+    .ess-right {
+      width: 3.41rem;
+      height: .69rem;
+      vertical-align: top;
+    }
+  }
+  .site-pro-top {
+    padding-bottom: .3rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    .aid-adopt {
+      width: 2.14rem;
+      height: .88rem;
+      line-height: .88rem;
+      text-align: center;
+      font-size: .42rem;
+      border-radius: .42rem;
+      background-color: rgba(152, 152, 152, .18);
+      color: #464646;
+    }
+    .acceptAnswer {
+      width: 1.14rem;
+      height: 1.14rem;
+      position: absolute;
+      top: -.3rem;
+      right: 1.12rem;
+    }
+    .pro-user-info {
+      display: flex;
+      position: relative;
+      .huihome-v {
+        position: absolute;
+        width: .54rem;
+        height: .54rem;
+        left: .9rem;
+        top: .9rem;
+      }
+      .pro-avatar-img {
+        height: 1.44rem;
+        width: 1.44rem;
+        border-radius: 1.44rem;
+      }
+      .dyna-userInfo {
+        padding: .24rem 0 .24rem .42rem;
+        p {
+          display: flex;
+        }
+        .pro-user-name {
+          font-size: .48rem;
+          color: #3db8a8;
+        }
+        .pro-user-role {
+          color: #000;
+          font-size: .42rem;
+          margin-top: .05rem;
+        }
+        .pro-user-date {
+          font-size: .4rem;
+          color: #989898;
+          margin-top: .25rem;
+        }
+      }
+    }
+  }
+  .pro-cell-infor {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .16rem;
+    .toProject {
+      width: 2rem;
+      height: .7rem;
+      line-height: .7rem;
+      text-align: center;
+      font-size: .4rem;
+      color: #3db8a8;
+      border: .01rem solid #3db8a8;
+    }
+    p {
+      height: .54rem;
+      line-height: .54rem;
+      color: #989898;
+      font-size: .36rem;
+      text-align: right;
+      padding: 0 .2rem;
+      width: 100%;
+    }
+    span {
+      color: #3db8a8;
+    }
+  }
+  .pro-dyna-content {
+    .exchangeButton {
+      font-size: .42rem;
+      color: #3db8a8;
+      line-height: .66rem;
+    }
+    .pro-dyna-txt {
+      line-height: .66rem;
+      color: #000;
+      font-size: .42rem;
+      padding-top: .2rem;
+      word-break: break-all;
+      &.pro-hideen {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 10;
+        /*! autoprefixer: off */
+        -webkit-box-orient: vertical;
+        /* autoprefixer: on */
+        max-height: 6.5rem;
+      }
+      a {
+        color: #3db8a8;
+        text-decoration: none;
+      }
+    }
+    .prism-player {
+      overflow: hidden;
+    }
+    .img-list {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      div {
+        height: 4rem;
+        background-size: cover;
+        background-position: 50%;
+        width: 32.5%;
+        margin: .03rem;
+        overflow: hidden;
+      }
+      &.length1 {
+        div {
+          width: 7.78rem;
+          height: 5.86rem;
+        }
+      }
+      &.length4 {
+        width: 66%;
+        div {
+          width: 49%;
+        }
+      }
+    }
+  }
+}

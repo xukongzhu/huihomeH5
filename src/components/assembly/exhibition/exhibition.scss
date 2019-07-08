@@ -1,0 +1,52 @@
+ .pro-exhibition {
+   color: #000000;
+   line-height: .66rem;
+   padding: .3rem 0;
+   padding-bottom: 0;
+   border-top: .01rem solid #EFEFEF;
+   margin: 0 .3rem;
+   .rewardORlike {
+     border-bottom: .01rem solid #EFEFEF;
+   }
+   .pro-like,
+   .pro-reward {
+     display: flex;
+     padding: .2rem 0;
+     img {
+       width: .46rem;
+       vertical-align: baseline;
+       height: .47rem;
+       margin-right: .21rem;
+     }
+     p {
+       font-size: .4rem;
+       color: #3db8a8;
+       line-height: .55rem;
+       span {
+         margin-right: .21rem;
+       }
+     }
+   }
+   .pro-reward {
+     img {
+       width: .5rem;
+       height: .32rem;
+       vertical-align: middle;
+       margin-top: .1rem;
+     }
+   }
+   .pro-comment {
+     padding: .2rem 0;
+     line-height: .66rem;
+     font-size: .42rem;
+     word-wrap: break-word;
+     color: #989898;
+     p {
+       line-height: .66rem;
+       word-wrap: break-word;
+       span {
+         color: #3db8a8;
+       }
+     }
+   }
+ }

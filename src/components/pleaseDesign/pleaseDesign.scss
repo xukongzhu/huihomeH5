@@ -1,0 +1,63 @@
+.pleaseDesign {
+  padding: .34rem;
+  .design-option {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .4rem 0 .48rem;
+    height: 1.28rem;
+    line-height: 1.28rem;
+    width: 100%;
+    font-size: .48rem;
+    background-color: #f6f6f6;
+    span {
+      font-size: .48rem;
+      color: #989898;
+      line-height: 1.28rem;
+    }
+    div {
+      width: 0;
+      height: 0;
+      border-left: .21rem solid transparent;
+      border-right: .21rem solid transparent;
+      border-top: .22rem solid #989898;
+      margin-top: .65rem;
+    }
+  }
+  .posiAbs {
+    position: relative;
+    span {
+      position: absolute;
+      bottom: .3rem;
+      right: .4rem;
+      font-size: .54rem;
+      color: #464646;
+    }
+  }
+  .sub {
+    width: 9.1rem;
+    height: 1.46rem;
+    line-height: 1.46rem;
+    margin: 2.3rem auto;
+    border-radius: .72rem;
+    color: #fff;
+    font-size: .54rem;
+    background-color: #3db8a8;
+    text-align: center;
+  }
+  p {
+    font-size: .54rem;
+    color: #464646;
+    line-height: 1.38rem;
+  }
+  input {
+    height: 1.28rem;
+    line-height: 1.28rem;
+    width: 100%;
+    font-size: .48rem;
+    color: #464646;
+    border: none;
+    background-color: #f6f6f6;
+    padding: 0 .4rem 0 .48rem;
+    outline: none;
+  }
+}

@@ -1,0 +1,183 @@
+.guide-detail {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fff;
+  .guide-content {
+    padding: .5rem .34rem;
+    border-bottom: .36rem solid #f6f6f6;
+    .guide-title {
+      font-size: .48rem;
+      color: #464646;
+      line-height: .64rem;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      /*! autoprefixer: off */
+      -webkit-box-orient: vertical;
+      /* autoprefixer: on */
+      overflow: hidden;
+    }
+    .guide-username {
+      font-size: .42rem;
+      color: #464646;
+      margin: .29rem 0 .41rem 0;
+      text-align: right;
+    }
+    .rai_content {
+      font-size: .42rem;
+      color: #464646;
+      line-height: .64rem;
+    }
+  }
+  .guide-comment {
+    padding: .47rem .34rem .36rem .34rem;
+    .guide-comment-title {
+      padding-bottom: .48rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      border-bottom: 0.01rem solid #d4d4d4;
+      div {
+        width: .1rem;
+        height: .3rem;
+        background-color: #464646;
+        margin-top: .08rem;
+      }
+      p {
+        font-size: .48rem;
+        color: #464646;
+        margin-left: .27rem;
+      }
+    }
+  }
+  .rai_content h1,
+  .rai_content h2,
+  .rai_content h3,
+  .rai_content h4,
+  .rai_content h5,
+  .rai_content h6 {
+    margin: .7em 0;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  .rai_content h1 {
+    font-size: 24px
+  }
+  .rai_content h2 {
+    font-size: 22px
+  }
+  .rai_content h3 {
+    font-size: 20px
+  }
+  .rai_content h4 {
+    font-size: 18px
+  }
+  .rai_content h5,
+  .rai_content h6 {
+    font-size: 17px
+  }
+  .rai_content img {
+    max-width: 100%;
+    height: auto !important;
+    vertical-align: top;
+  }
+  .rai_content p:empty {
+    -webkit-margin-collapse: collapse;
+  }
+  .rai_content hr {
+    border: none;
+    border-bottom: 1px solid #d5d5d5;
+    margin-bottom: 25px;
+  }
+  /* 寮曠敤鐨勬牱寮� */
+  .rai_content blockquote {
+    margin: 0 0 25px 0;
+    padding: 20px;
+    font-weight: 100;
+    word-break: break-all;
+    border-left: 4px solid #999;
+    background-color: #f6f6f6;
+  }
+  b,
+  strong {
+    font-weight: 700 !important;
+  }
+  .rai_content blockquote p:last-child {
+    margin-bottom: 0
+  }
+  .rai_content ol,
+  .rai_content ul {
+    margin-bottom: 25px
+  }
+  .rai_content ol li,
+  .rai_content ul li {
+    line-height: 1.7em
+  }
+  .rai_content ol li ol,
+  .rai_content ul li ul {
+    margin-top: 15px
+  }
+  .rai_content pre {
+    padding: 10px 10px 8px;
+    margin-bottom: 25px;
+    overflow: auto;
+    word-wrap: normal;
+    word-break: break-all;
+    white-space: pre;
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .rai_content pre code {
+    padding: 0;
+    background-color: transparent;
+    white-space: pre;
+  }
+  .rai_content code {
+    padding: 2px 4px;
+    background-color: #fbeded;
+    border: none;
+    white-space: pre-wrap;
+    color: #dd6751;
+    font-size: 12px;
+  }
+  .rai_content table {
+    margin-bottom: 25px;
+    border: 1px solid #d9d9d9;
+    border-collapse: collapse;
+    border-left: none;
+  }
+  .rai_content table thead th {
+    vertical-align: bottom
+  }
+  .rai_content table th {
+    font-weight: bold
+  }
+  .rai_content table th,
+  .rai_content table td {
+    padding: 8px;
+    border-left: 1px solid #d9d9d9;
+    border-top: 1px solid #d9d9d9;
+    line-height: 1.5em;
+    vertical-align: top;
+  }
+  .rai_content .title h1 {
+    margin: 0 auto 18px;
+    text-align: justify;
+    color: #2f2f2f;
+    font-size: 24px;
+  }
+  .rai_content a {
+    color: #28a1c5;
+    text-decoration: none;
+  }
+  .rai_content p {
+    word-break: break-all;
+    font-size: 17px;
+    color: #000;
+    text-align: justify;
+  }
+}

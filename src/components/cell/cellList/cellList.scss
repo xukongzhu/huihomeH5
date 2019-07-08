@@ -1,0 +1,64 @@
+ .cell-list {
+   background-color: #f6f6f6;
+   .cell-div {
+     padding: .3rem;
+     display: flex;
+     border-top: .36rem solid #f6f6f6;
+     background-color: #fff;
+     .cell-img {
+       width: 3.38rem;
+       height: 3.38rem;
+       min-width: 3.38rem;
+     }
+     .cell-infor {
+       padding: .55rem .68rem 0 .47rem;
+       width: 100%;
+       .cell-name {
+         display: flex;
+         font-size: .48rem;
+         color: #3db8a8;
+         span {
+           font-size: .42rem;
+           color: #989898;
+           margin-top: .05rem;
+         }
+       }
+       .cell-data {
+         display: flex;
+         margin-top: .35rem;
+         width: 100%;
+         justify-content: space-between;
+         p {
+           font-size: .38rem;
+           color: #989898;
+         }
+       }
+       .cell-data2 {
+         display: flex;
+         justify-content: space-between;
+         margin-top: .3rem;
+         p {
+           font-size: .38rem;
+           color: #989898;
+         }
+       }
+       .cell-stars {
+         display: flex;
+         span {
+           font-size: .38rem;
+           color: #989898;
+           line-height: .5rem;
+           margin-left: .34rem;
+         }
+         .singleStar {
+           width: .4rem;
+           height: .4rem;
+           .star {
+             width: .4rem;
+             height: .4rem;
+           }
+         }
+       }
+     }
+   }
+ }

@@ -1,0 +1,12 @@
+.aid-answer {
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fff;
+  .aid-top {
+    padding: .3rem;
+    border-bottom: .36rem solid #f6f6f6;
+    padding-bottom: 0;
+  }
+}

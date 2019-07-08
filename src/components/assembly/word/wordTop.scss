@@ -1,0 +1,58 @@
+.word_top_div {
+  display: flex;
+  background-color: #fff;
+  padding: .3rem;
+  border-bottom: .36rem solid #f6f6f6;
+  .overall_evaluation_div {
+    flex: 1;
+    p {
+      text-align: center;
+    }
+    p:nth-child(1) {
+      color: #545454;
+      font-size: .39rem;
+      height: 1rem;
+      line-height: 1rem;
+    }
+    p:nth-child(2) {
+      color: #ff8736;
+      font-size: .8rem;
+      height: 1rem;
+      line-height: 1rem;
+    }
+    p:nth-child(3) {
+      color: #989898;
+      font-size: .39rem;
+      height: 1rem;
+      line-height: 1rem;
+      span {
+        height: 1rem;
+        line-height: 1rem;
+        color: #ff8736;
+        &.c8 {
+          color: #3db8a8;
+        }
+      }
+    }
+  }
+}
+
+.word_title {
+  height: 1.2rem;
+  line-height: 1.2rem;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #F1F1F1;
+  padding-left: .3rem;
+  position: relative;
+  display: flex;
+  p {
+    font-size: .48rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+  }
+  p:nth-child(2) {
+    color: #989898;
+    margin-left: .2rem;
+    font-size: .42rem;
+  }
+}

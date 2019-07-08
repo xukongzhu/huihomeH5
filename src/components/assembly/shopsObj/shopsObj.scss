@@ -1,0 +1,88 @@
+.shops-obj {
+  margin: .3rem 0;
+  display: flex;
+  background-color: #fff;
+  height: auto;
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: .58rem;
+  .shops-logo {
+    width: 2.95rem;
+    height: 2.95rem;
+    min-width: 2.95rem;
+  }
+  .shop-info {
+    display: flex;
+    justify-content: space-between;
+    width: 8.8rem;
+    .pro-follow {
+      margin-top: .95rem;
+    }
+    .shops-eva-infor {
+      padding: .41rem 0 0 .46rem;
+      width: 7.6rem;
+      .shops-eva-title {
+        color: #464646;
+        font-size: .48rem;
+      }
+      .shops-eva-describe {
+        font-size: .38rem;
+        color: #989898;
+        line-height: .55rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-top: .22rem;
+      }
+      .shop-ensure {
+        display: flex;
+        margin-top: .17rem;
+        height: .64rem;
+        line-height: .64rem;
+        .site-assess {
+          display: flex;
+          span {
+            font-size: .38rem;
+            color: #989898;
+            line-height: 1rem;
+            margin-left: .2rem;
+          }
+          .stars {
+            .singleStar {
+              width: .4rem;
+              height: .4rem;
+              margin-top: .24rem;
+              .star {
+                width: .41rem;
+                height: .41rem;
+              }
+            }
+          }
+        }
+        .gold-medal {
+          width: 2.34rem;
+          min-width: 2.34rem;
+          height: .64rem;
+          color: #fff;
+          font-size: .38rem;
+          background-color: #ff8d36;
+          line-height: .7rem;
+          border-radius: .05rem;
+          text-align: center;
+          margin-right: .21rem;
+        }
+        .ensure {
+          height: .64rem;
+          color: #fff;
+          font-size: .38rem;
+          background-color: #3db8a8;
+          margin-right: .21rem;
+          line-height: .7rem;
+          border-radius: .05rem;
+          width: .64rem;
+          min-width: .64rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

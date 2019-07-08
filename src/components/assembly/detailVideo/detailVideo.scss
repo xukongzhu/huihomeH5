@@ -1,0 +1,152 @@
+.video-content {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 8.83rem;
+  background-color: #fff;
+  z-index: 9;
+  .pro-follow,
+  .user-follow {
+    height: 1.2rem;
+    vertical-align: middle;
+    margin-top: .1rem;
+    text-align: center;
+    img {
+      width: .76rem;
+      height: .78rem;
+    }
+    p {
+      color: #989898;
+      font-size: .36rem;
+      text-align: center;
+      &.c8 {
+        color: #3db8a8;
+      }
+    }
+  }
+  .aid-follow {
+    img {
+      width: 1.5rem;
+      height: 1.357rem;
+    }
+  }
+  .prism-player .prism-liveshift-progress .prism-progress-played,
+  .prism-player .prism-progress .prism-progress-played {
+    background-color: #3db8a8;
+  }
+  .prism-player .prism-liveshift-progress .prism-progress-loaded,
+  .prism-player .prism-progress .prism-progress-loaded {
+    background-color: #fff;
+  }
+  .prism-player .prism-info-display {
+    top: .1rem;
+  }
+  .video-time {
+    position: absolute;
+    right: .6rem;
+    bottom: .32rem;
+    font-size: .4rem;
+    color: #fff;
+    z-index: 9;
+  }
+  .prism-player {
+    video {
+      z-index: 1;
+    }
+  }
+  .site-pro-top {
+    padding: .3rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    .aid-adopt {
+      width: 2.14rem;
+      height: .88rem;
+      line-height: .88rem;
+      text-align: center;
+      font-size: .42rem;
+      border-radius: .42rem;
+      background-color: rgba(152, 152, 152, .18);
+      color: #464646;
+    }
+    .acceptAnswer {
+      width: 1.14rem;
+      height: 1.14rem;
+      position: absolute;
+      top: -.3rem;
+      right: 1.12rem;
+    }
+    .pro-user-info {
+      display: flex;
+      position: relative;
+      .huihome-v {
+        position: absolute;
+        width: .54rem;
+        height: .54rem;
+        left: .9rem;
+        top: .9rem;
+      }
+      .pro-avatar-img {
+        height: 1.44rem;
+        width: 1.44rem;
+        border-radius: 1.44rem;
+      }
+      .dyna-userInfo {
+        padding: .24rem 0 .24rem .42rem;
+        p {
+          display: flex;
+        }
+        .pro-user-name {
+          font-size: .48rem;
+          color: #3db8a8;
+        }
+        .pro-user-role {
+          color: #000;
+          font-size: .42rem;
+          margin-top: .05rem;
+        }
+        .pro-user-date {
+          font-size: .4rem;
+          color: #989898;
+          margin-top: .25rem;
+        }
+      }
+    }
+  }
+  .pro-user-info {
+    display: flex;
+    position: relative;
+    .huihome-v {
+      position: absolute;
+      width: .54rem;
+      height: .54rem;
+      left: .9rem;
+      top: .9rem;
+    }
+    .pro-avatar-img {
+      height: 1.44rem;
+      width: 1.44rem;
+      border-radius: 1.44rem;
+    }
+    .dyna-userInfo {
+      padding: .24rem 0 .24rem .42rem;
+      p {
+        display: flex;
+      }
+      .pro-user-name {
+        font-size: .48rem;
+        color: #3db8a8;
+      }
+      .pro-user-role {
+        color: #000;
+        font-size: .42rem;
+        margin-top: .05rem;
+      }
+      .pro-user-date {
+        font-size: .4rem;
+        color: #989898;
+        margin-top: .25rem;
+      }
+    }
+  }
+}

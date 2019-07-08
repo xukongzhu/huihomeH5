@@ -1,0 +1,114 @@
+.rule-div {
+  padding: .3rem;
+  display: flex;
+  border-bottom: .3rem solid #f6f6f6;
+  .designer-avatar {
+    height: 4.51rem;
+    width: 4.51rem;
+    min-width: 4.51rem;
+    min-height: 4.51rem;
+    background-size: 100%;
+    div {
+      width: 100%;
+      height: .68rem;
+      background-color: rgba(0, 0, 0, .5);
+      font-size: .38rem;
+      color: #fff;
+      line-height: .68rem;
+      text-align: center;
+      margin-top: 3.83rem;
+    }
+  }
+  .designer-infor {
+    margin-left: .58rem;
+    width: 100%;
+    .df {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: .4rem;
+      border-bottom: .01rem solid #f1f1f1;
+      width: 100%;
+      .df-div {
+        flex: 1;
+      }
+    }
+    .designer-name {
+      display: flex;
+      p:nth-child(1) {
+        font-size: .48rem;
+        color: #464646;
+        max-width: 70%;
+        height: .45rem;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      p:nth-child(2) {
+        font-size: .42rem;
+        color: #989898;
+        margin-top: .05rem;
+      }
+    }
+    .designer-cell {
+      font-size: .38rem;
+      margin-top: .2rem;
+      color: #3db8a8;
+      height: .38rem;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .goodAt {
+      font-size: .38rem;
+      color: #464646;
+      margin-top: .4rem;
+      margin-bottom: .2rem;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .describe {
+      font-size: .38rem;
+      color: #989898;
+      line-height: .5rem;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      height: .9rem;
+    }
+    .df1 {
+      display: flex;
+      margin-top: .37rem;
+      justify-content: space-between;
+      .stars-div {
+        display: flex;
+      }
+      .singleStar {
+        width: .36rem;
+        height: .36rem;
+        .star {
+          width: .36rem;
+          height: .36rem;
+        }
+      }
+      span {
+        font-size: .38rem;
+        color: #464646;
+        margin-top: .02rem;
+        margin-left: .2rem;
+      }
+      p {
+        font-size: .38rem;
+        color: #989898;
+      }
+    }
+  }
+}

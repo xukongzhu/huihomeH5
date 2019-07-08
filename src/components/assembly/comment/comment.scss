@@ -1,0 +1,142 @@
+.dycomment {
+  padding-top: .4rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: .3rem;
+  .huihome-v {
+    position: absolute;
+    width: .43rem;
+    height: .43rem;
+    left: .66rem;
+    top: 1.06rem;
+  }
+  .disnone {
+    display: none;
+  }
+  .comment-infor {
+    width: 10.09rem;
+    .comment-opera {
+      line-height: .5rem;
+      display: flex;
+      div:nth-child(1) {
+        font-size: .4rem;
+        color: #989898;
+        margin-right: .2rem;
+      }
+      div {
+        line-height: .5rem;
+        display: flex;
+        img {
+          width: .4rem;
+          height: .4rem;
+          vertical-align: text-top;
+        }
+        span {
+          font-size: .38rem;
+          color: #989898;
+          margin-left: .1rem;
+          line-height: .5rem;
+          vertical-align: text-top;
+        }
+      }
+    }
+    .comment-user-infor {
+      display: flex;
+      justify-content: space-between;
+    }
+    .username {
+      font-size: .48rem;
+      color: #545454;
+    }
+    .userdata {
+      font-size: .4rem;
+      color: #989898;
+      margin-top: .15rem;
+    }
+    .comment-txt {
+      font-size: .4rem;
+      color: #464646;
+      margin-top: .22rem;
+      line-height: .6rem;
+    }
+    .comment-reply {
+      position: relative;
+      background-color: #F6F6F6;
+      margin-top: .5rem;
+      .reply-more {
+        line-height: .68rem;
+        text-align: center;
+        font-size: .38rem;
+        color: #989898;
+        padding-bottom: .3rem;
+        img {
+          width: .3rem;
+          height: .17rem;
+          vertical-align: middle;
+          margin-left: .18rem;
+        }
+      }
+      .case-sanjiao {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: .28rem solid transparent;
+        border-right: .28rem solid transparent;
+        border-bottom: .24rem solid #F6F6F6;
+        top: -.24rem;
+        left: .24rem;
+      }
+      .reply-infor {
+        padding-bottom: .44rem;
+      }
+      .reply-userinfor {
+        display: flex;
+        padding: .2rem .29rem 0 .2rem;
+        justify-content: space-between;
+        .df {
+          display: flex;
+          position: relative;
+          .huihome-v {
+            position: absolute;
+            width: .33rem;
+            height: .33rem;
+            left: .42rem;
+            top: .42rem;
+          }
+        }
+        .reply-avatar {
+          width: .75rem;
+          height: .75rem;
+          border-radius: 100%;
+        }
+        .reply-username {
+          margin-left: .18rem;
+          font-size: .4rem;
+          color: #464646;
+        }
+        .reply-data {
+          font-size: .38rem;
+          color: #989898;
+          margin-left: .18rem;
+          margin-top: .15rem;
+        }
+      }
+      .reply-txt {
+        margin-top: .1rem;
+        font-size: .36rem;
+        color: #989898;
+        line-height: .56rem;
+        padding: 0 0.25rem;
+        .toUsername {
+          color: #464646;
+        }
+      }
+    }
+  }
+  .comment-avatar {
+    width: 1.09rem;
+    height: 1.09rem;
+    border-radius: 100%;
+  }
+}

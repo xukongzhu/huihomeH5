@@ -1,0 +1,19 @@
+.list-comment {
+  .reply-username {
+    line-height: .56rem;
+  }
+  .reply-txt {
+    margin-top: 0 !important;
+  }
+  .reply-more {
+    padding-left: .38rem;
+    color: #3db8a8 !important;
+    text-align: left !important;
+    font-size: .4rem !important;
+    img {
+      width: .25rem !important;
+      height: .27rem !important;
+      vertical-align: baseline !important;
+    }
+  }
+}

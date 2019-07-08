@@ -1,0 +1,102 @@
+.activity-sign {
+  background-image: url('./img/active-beijing.png');
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  padding-top: 2.85rem;
+  position: relative;
+  .ve-iframe {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99993;
+    background-color: rgba(0, 0, 0, .5);
+    max-width: 500px;
+  }
+  .forward-region {
+    text-align: center;
+    .forward-title {
+      font-size: .69rem;
+      font-weight: bold;
+      color: #000;
+    }
+    ul {
+      margin-top: .21rem;
+      li {
+        margin-top: .5rem;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        height: .97rem;
+        span {
+          font-size: .54rem;
+          color: #000;
+          line-height: .97rem;
+        }
+        input {
+          height: .97rem;
+          line-height: .97rem;
+          font-size: .38rem;
+          padding-left: .3rem;
+          border: none;
+          border: .02em solid #f1f1f1;
+          width: 6.49rem;
+          margin-left: .51rem;
+          color: #000;
+          outline: none;
+          padding: 10px 15px;
+          box-shadow: none;
+          text-shadow: none;
+          -webkit-appearance: none;
+          background: none;
+        }
+        input:focus {
+          outline: none;
+        }
+        button {
+          text-align: center;
+          color: #fff;
+          background-color: #3db8a8;
+          border: none;
+          outline: none;
+          position: absolute;
+          z-index: 99992;
+          width: 2.31rem;
+          height: .73rem;
+          line-height: .73rem;
+          padding: 0;
+          font-size: .29rem;
+          border-radius: .15rem;
+          right: 2rem;
+          top: .1rem;
+          &.ve98 {
+            background-color: #989898;
+          }
+        }
+        .forward-sign {
+          width: 8.49rem;
+          height: 1.09rem;
+          line-height: 1.09rem;
+          font-size: .57rem;
+          color: #fff;
+          text-align: center;
+          background-color: #FF8B34;
+          margin: 0 auto;
+          border-radius: .15rem;
+          margin-top: .79rem;
+        }
+      }
+    }
+  }
+  .forward-logo-div {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 80px;
+    .forward-logo {
+      width: 3.12rem;
+    }
+  }
+}

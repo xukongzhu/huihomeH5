@@ -1,0 +1,126 @@
+.project-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fff;
+  .top {
+    padding: .05rem .38rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: .36rem solid #f6f6f6;
+    img {
+      width: 5.45rem;
+      height: 2.13rem;
+      margin: .3rem 0;
+      border: .1rem solid #f1f1f1;
+      border-radius: .15rem;
+    }
+  }
+  .subList {
+    padding: .52rem 0 .71rem .33rem;
+    border-bottom: .36rem solid #f6f6f6;
+    .sub-list-div::-webkit-scrollbar {
+      width: 0px;
+      opacity: 0;
+      height: 0px;
+    }
+    .sub-list-div {
+      margin-top: .6rem;
+      display: flex;
+      overflow-x: scroll;
+      .sub-div {
+        width: 5.4rem;
+        height: 2.32rem;
+        border-radius: .05rem;
+        margin-left: .39rem;
+        min-width: 5.4rem;
+        div {
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.5);
+          line-height: 2.32rem;
+          font-size: .48rem;
+          color: #fff;
+          text-align: center;
+        }
+      }
+      .sub-div:nth-child(1) {
+        margin-left: 0;
+      }
+    }
+    .subList-title {
+      display: flex;
+      justify-content: space-between;
+      padding-right: .33rem;
+      img {
+        width: .52rem;
+        height: .52rem;
+        vertical-align: baseline;
+      }
+      span {
+        font-size: .48rem;
+        line-height: .54rem;
+        color: #464646;
+        font-family: PingFang-SC-Bold;
+      }
+      p {
+        font-size: .42rem;
+        line-height: .54rem;
+        color: #3db8a8;
+      }
+      div {
+        line-height: .54rem;
+      }
+    }
+  }
+  .site-screen-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .site-screen-right {
+    width: 1.46rem;
+    height: 1.46rem;
+    text-align: center;
+    line-height: 1.46em;
+    background-color: #fff;
+    border-left: .02px solid #f1f1f1;
+    border-bottom: .01rem solid #f1f1f1;
+    img {
+      width: .57rem;
+      height: .57rem;
+      vertical-align: middle;
+    }
+  }
+  .site-screen {
+    display: flex;
+    height: 1.46rem;
+    line-height: 1.46rem;
+    font-size: .48rem;
+    color: #989898;
+    border-bottom: .01rem solid #f1f1f1;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    .site-option {
+      line-height: 1.46rem;
+      min-height: 1.46rem;
+      width: 1.27rem;
+      min-width: 1.27rem;
+      flex: 1;
+      &:nth-child(1) {
+        margin-left: 0;
+      }
+      &.select {
+        color: #3db8a8;
+        font-size: .54rem;
+      }
+    }
+  }
+  .site-screen::-webkit-scrollbar {
+    width: 0px;
+    opacity: 0;
+    height: 0px;
+  }
+}

@@ -1,0 +1,158 @@
+.ruleTop {
+  width: 100%;
+  height: 6.29rem;
+  background-size: cover;
+  background-position: 50%;
+  display: flex;
+  .rule-infor {
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    padding-top: 2.32rem;
+    padding: 2.32rem 0 0 .58rem;
+    .ruleTop-bottom {
+      display: flex;
+      justify-content: space-between;
+      padding-right: .34rem;
+      .df {
+        display: flex;
+        margin-top: .2rem;
+        div {
+          display: flex;
+          img {
+            width: .38rem;
+            height: .38rem;
+            vertical-align: middle;
+          }
+          span {
+            font-size: .36rem;
+            color: #fff;
+            margin-left: .11rem;
+          }
+        }
+        div:nth-child(2) {
+          margin-left: .3rem;
+          img {
+            width: .3rem;
+            height: .36rem;
+            vertical-align: middle;
+          }
+        }
+      }
+      .fee-div {
+        height: .38rem;
+      }
+      .fee {
+        display: flex;
+        img {
+          width: .38rem;
+          height: .38rem;
+          vertical-align: middle;
+        }
+        span {
+          font-size: .36rem;
+          color: #fff;
+          margin-left: .11rem;
+        }
+      }
+      .user-name {
+        margin-top: .43rem;
+        p {
+          font-size: .48rem;
+          color: #fff;
+          display: flex;
+          span {
+            font-size: .42rem;
+            color: #fff;
+            margin-top: .06rem;
+          }
+        }
+      }
+      .rule-cell {
+        height: .72rem;
+        text-align: center;
+        line-height: .72rem;
+        border: .01rem solid #fff;
+        color: #fff;
+        margin-top: .27rem;
+        font-size: .38rem;
+        padding: 0 .2rem;
+      }
+      .rule-operation {
+        display: flex;
+        margin-top: .23rem;
+        div:nth-child(1) {
+          width: 2.98rem;
+          height: .72rem;
+          text-align: center;
+          line-height: .72rem;
+          font-size: .38rem;
+          color: #fff;
+          border: .01rem solid #fff;
+          margin-right: .33rem;
+        }
+      }
+    }
+    .ownerTop-follow {
+      width: 2.53rem;
+      height: .72rem;
+      background-color: #fff;
+      color: #464646;
+      font-size: .38rem;
+      text-align: center;
+      line-height: .72rem;
+    }
+    .owner-infor {
+      display: flex;
+      justify-content: space-between;
+    }
+    .owner-data-infor {
+      display: flex;
+      text-align: center;
+      color: #fff;
+      .interval {
+        height: .63rem;
+        width: .03rem;
+        background-color: #fff;
+        margin-top: .3rem;
+      }
+      .owner-data-div {
+        padding: 0 .52rem;
+        p:nth-child(1) {
+          font-size: .48rem;
+          color: #fff;
+        }
+        p:nth-child(2) {
+          font-size: .38rem;
+          color: #fff;
+          margin-top: .3rem;
+        }
+      }
+    }
+    .owner-data-my {
+      .owner-data-div {
+        padding: 0 .96rem;
+      }
+    }
+    .owner-left {
+      display: flex;
+      .df {
+        display: flex;
+        margin-top: .5rem;
+        img {
+          width: .35rem;
+          height: .35rem;
+        }
+      }
+      #stars {
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      .owner-avatar {
+        width: 1.65rem;
+        height: 1.65rem;
+        border-radius: 100%;
+        margin-right: .2rem;
+      }
+    }
+  }
+}

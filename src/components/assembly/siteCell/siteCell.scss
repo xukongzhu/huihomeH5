@@ -1,0 +1,69 @@
+.site-cell {
+  padding-bottom: .87rem;
+  padding-top: .2rem;
+  border-bottom: 0.01rem solid #e5e5e5;
+  .site-cell-title {
+    font-size: .42rem;
+    color: #989898;
+    line-height: 1.2rem;
+    span {
+      color: #3db8a8;
+    }
+  }
+  .site-cell-userInfo {
+    display: flex;
+    justify-content: space-between;
+    .site-role-infor {
+      display: flex;
+      .site-assess {
+        display: flex;
+        span {
+          color: #989898;
+          font-size: .33rem;
+          line-height: .45rem;
+          margin-left: .23rem;
+        }
+      }
+      #stars {
+        .singleStar {
+          width: .36rem;
+          height: .36rem;
+          .star {
+            width: .36rem;
+            height: .36rem;
+          }
+        }
+      }
+      .site-role-avatar {
+        width: 1.35rem;
+        height: 1.35rem;
+        border-radius: 1.35rem;
+      }
+      .site-role-div {
+        padding: 0 .2rem;
+        overflow: hidden;
+        .site-role-name {
+          font-size: .48rem;
+          color: #000;
+          line-height: .5rem;
+          overflow: hidden;
+          width: 100%;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          /*! autoprefixer: off */
+          -webkit-box-orient: vertical;
+          /* autoprefixer: on */
+          span {
+            font-size: .42rem;
+          }
+        }
+        .site-role-iden {
+          color: #989898;
+          line-height: .5rem;
+          margin-top: .1rem;
+          font-size: .38rem;
+        }
+      }
+    }
+  }
+}
